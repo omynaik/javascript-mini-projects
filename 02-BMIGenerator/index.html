@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript || BMI Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="image">
+        <img src="../assets/body-mass-index.png" alt="BMI_image" />
+      </div>
+
+      <div class="container">
+        <h1>BMI CALCULATOR</h1>
+        <p class="sub-heading">Enter your details here to calculate your BMI</p>
+
+        <form>
+          <p class="height">
+            <label for="height">Height in centimeters(cm):</label
+            ><input type="text" id="height" />
+          </p>
+
+          <p class="weight">
+            <label for="weight">Weight in kilograms(kg):</label
+            ><input type="text" id="weight" />
+          </p>
+          <button>Calculate the BMI (click here)</button>
+
+          <div id="results"></div>
+        </form>
+
+        <div id="weight-guide">
+          <h3>BMI Weight Guide (Range)</h3>
+          <p id="underweight">UNDERWEIGHT = Below 18.6</p>
+          <p id="normal">NORMAL = 18.6 to 24.9</p>
+          <p id="overweight">OVERWEIGHT = 25.0 and above</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

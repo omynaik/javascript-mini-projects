@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 0.1em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.container {
+  width: 40%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  color: hotpink;
+}
+
+.sub-heading {
+  font-size: x-large;
+  color: lightpink;
+}
+
+label {
+  font-size: large;
+}
+
+input {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 7px 8px;
+  transform: translateX(10%);
+  background-color: whitesmoke;
+  color: hotpink;
+  font-weight: bold;
+  border: 3px solid orangered;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#results {
+  margin-top: 10px;
+  color: lemonchiffon;
+  font-family: monospace;
+  font-size: 1.5em;
+  overflow-x: visible;
+  width: 100%;
+}
+
+#results span {
+  color: red;
+}
+
+#weight-guide {
+  background-color: bisque;
+  width: 50%;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+  border: 3px solid red;
+  margin-top: 20px;
+}
+
+h3 {
+  background-color: lightgoldenrodyellow;
+  padding: 10px 0px;
+}
+
+#underweight {
+  color: orange;
+  font-weight: bold;
+}
+
+#normal {
+  color: green;
+  font-weight: bold;
+}
+
+#overweight {
+  color: orangered;
+  font-weight: bold;
+}
+
+.image img {
+  width: 55%;
+  height: 55%;
+  margin-top: 25%;
+  margin-left: 25%;
+}
